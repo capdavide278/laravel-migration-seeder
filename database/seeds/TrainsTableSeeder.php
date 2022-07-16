@@ -13,7 +13,7 @@ class TrainsTableSeeder extends Seeder
      */
     public function run(Faker $faker)
     {
-        for($i=0; $i<100; $i++){
+        for($i=0; $i<10; $i++){
             $train = new Train();
             $train->azienda = $faker -> company();
             $train->stazione_di_partenza = $faker->city();
